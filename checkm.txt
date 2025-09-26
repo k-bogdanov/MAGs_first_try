@@ -1,0 +1,14 @@
+[2025-09-26 12:56:38] INFO: CheckM v1.2.3
+[2025-09-26 12:56:38] INFO: checkm ssu_finder -t 16 -x fa /nesi/nobackup/uoo04534/Norway/3_assembled/6109_072_S129/spades/scaffolds.fasta /nesi/nobackup/uoo04534/Norway/5_norway_bins_scaffolds/6109_072_S129 /nesi/nobackup/uoo04534/Norway/7_quality_second_check/6109_072_S129/ssu_finder
+[2025-09-26 12:56:38] INFO: CheckM data: /opt/nesi/CS400_centos7_bdw/CheckM/1.2.3-foss-2023a-Python-3.11.6/data
+[2025-09-26 12:56:38] INFO: [CheckM - ssu_finder] Identifying SSU (16S/18S) rRNAs in sequences.
+[2025-09-26 12:56:38] WARNING: Skipping bin bin.lowDepth.fa as it has a size of 0 bytes.
+[2025-09-26 12:56:38] INFO: Determining bin assignment of sequences.
+[2025-09-26 12:56:39] INFO: Identifying SSU rRNAs on sequences.
+[2025-09-26 12:56:39] INFO: Identifying bacterial 16S.
+[2025-09-26 12:56:47] INFO: Identifying archaeal 16S.
+[2025-09-26 12:56:54] INFO: Identifying eukaryotic 18S.
+[2025-09-26 12:57:06] INFO: Identified 411 putative SSU genes.
+[2025-09-26 12:57:06] INFO: Summary of identified hits written to: /nesi/nobackup/uoo04534/Norway/7_quality_second_check/6109_072_S129/ssu_finder/ssu_summary.tsv
+[2025-09-26 12:57:06] INFO: SSU sequences written to: /nesi/nobackup/uoo04534/Norway/7_quality_second_check/6109_072_S129/ssu_finder/ssu.fna
+[2025-09-26 12:57:06] INFO: { Current stage: 0:00:27.938 || Total: 0:00:27.938 }

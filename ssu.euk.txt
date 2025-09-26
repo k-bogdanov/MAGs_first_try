@@ -1,0 +1,1224 @@
+# nhmmer :: search a DNA model, alignment, or sequence against a DNA database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query file:                      /opt/nesi/CS400_centos7_bdw/CheckM/1.2.3-foss-2023a-Python-3.11.6/data/hmms_ssu/SSU_euk.hmm
+# target sequence database:        -
+# output directed to file:         /nesi/nobackup/uoo04534/Norway/7_quality_second_check/6109_072_S129/ssu_finder/ssu.euk.txt
+# hits tabular output:             /nesi/nobackup/uoo04534/Norway/7_quality_second_check/6109_072_S129/ssu_finder/ssu.euk.table.txt
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 1e-05
+# number of worker threads:        16
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       silva.eukarya  [M=1734]
+Scores for complete hits:
+    E-value  score  bias  Sequence                              start    end  Description
+    ------- ------ -----  --------                              -----  -----  -----------
+          0 1615.9  33.6  NODE_1673_length_3345_cov_4.424113      926   2655 
+    1.5e-96  326.8   8.9  NODE_413467_length_410_cov_2.399399       3    409 
+    1.8e-83  283.5  14.0  NODE_3693_length_2416_cov_4.865327     1132   1903 
+    1.3e-80  274.1   9.8  NODE_8382_length_1752_cov_14.712239     832     90 
+    2.1e-79  270.0  17.0  NODE_3108_length_2596_cov_7.942834      985   1740 
+    2.8e-76  259.7  26.1  NODE_35269_length_1001_cov_16.839827    401    998 
+    1.5e-74  253.9  11.9  NODE_62224_length_813_cov_7.716033        7    693 
+    1.6e-74  253.8  16.1  NODE_30052_length_1065_cov_9.051619     282   1028 
+    1.4e-73  250.7  13.7  NODE_3185_length_2571_cov_16.783881    1434    670 
+    2.3e-71  243.4  15.4  NODE_6403_length_1938_cov_9.062332      889   1637 
+    1.7e-62  214.0   9.4  NODE_94797_length_701_cov_11.048077      22    553 
+    5.8e-61  208.9  20.6  NODE_90989_length_711_cov_11.678233      11    700 
+    1.3e-60  207.8  20.2  NODE_18305_length_1291_cov_2.130972     681      4 
+    1.5e-59  204.3   9.8  NODE_102100_length_683_cov_20.465347     10    535 
+    4.1e-58  199.5   1.2  NODE_433100_length_403_cov_1.702454       1    293 
+    4.6e-57  196.0   3.2  NODE_76612_length_755_cov_1.479351        2    603 
+    3.9e-53  183.0   8.2  NODE_17343_length_1316_cov_17.736885   1315    798 
+    1.7e-52  180.9  12.4  NODE_283259_length_472_cov_19.792405     29    470 
+    2.5e-50  173.7   7.0  NODE_141874_length_609_cov_5.768797     157    607 
+    4.7e-50  172.8  11.3  NODE_16490_length_1343_cov_16.184044    460      5 
+    8.8e-49  168.6  10.5  NODE_255860_length_490_cov_7.818402       6    484 
+    1.7e-46  161.0  15.5  NODE_142584_length_608_cov_17.885122    147    606 
+      8e-46  158.8   7.4  NODE_195526_length_542_cov_2.081720     408      3 
+    3.7e-45  156.6  11.6  NODE_126360_length_634_cov_21.023339    444      2 
+    1.5e-43  151.3   6.3  NODE_442142_length_400_cov_1.386997     368      2 
+    2.8e-43  150.3   6.3  NODE_253016_length_492_cov_2.734940     492      5 
+    4.4e-43  149.7  14.2  NODE_11774_length_1534_cov_2.389156       1    494 
+    1.2e-40  141.6   8.6  NODE_316776_length_453_cov_1.247340     452      1 
+    9.9e-39  135.3   6.6  NODE_69215_length_783_cov_2.383853      783    326 
+    4.2e-37  129.9  10.4  NODE_432918_length_403_cov_6.852761       3    400 
+    9.8e-37  128.7   4.7  NODE_315196_length_454_cov_1.007958     454      1 
+    1.2e-36  128.4   8.2  NODE_229907_length_510_cov_4.718245     506    141 
+      5e-36  126.3  10.2  NODE_555825_length_337_cov_12.196154    328      5 
+    1.6e-35  124.7   3.8  NODE_30653_length_1057_cov_2.940816       4    366 
+    1.6e-35  124.6  25.2  NODE_69244_length_783_cov_1.720963      363     26 
+    1.6e-34  121.3   5.4  NODE_25613_length_1132_cov_14.159242      5    367 
+    3.9e-34  120.0   7.5  NODE_13264_length_1463_cov_3.969697       4    368 
+    7.1e-34  119.2   9.8  NODE_555581_length_367_cov_5.724138     357      1 
+    1.1e-33  118.6   9.5  NODE_69983_length_780_cov_3.260313      308      1 
+    1.2e-33  118.4   6.2  NODE_185456_length_553_cov_1.430672     553    189 
+    1.5e-33  118.1   7.1  NODE_435775_length_402_cov_21.172308      3    368 
+    1.5e-32  114.7   6.7  NODE_551359_length_369_cov_12.804795    366      4 
+    1.4e-31  111.6   2.6  NODE_102104_length_683_cov_2.912541     680    433 
+    1.6e-31  111.4   7.2  NODE_555579_length_367_cov_32.975862     38    333 
+    5.4e-31  109.6   8.4  NODE_555625_length_362_cov_19.235088      6    362 
+    7.4e-31  109.2   5.3  NODE_432962_length_403_cov_2.220859       2    366 
+    1.9e-30  107.8   2.8  NODE_555721_length_348_cov_5.531365       5    235 
+    5.8e-30  106.2   1.8  NODE_64016_length_805_cov_2.559066      762    399 
+    2.8e-29  104.0   8.2  NODE_555812_length_338_cov_11.570881      8    329 
+    4.5e-29  103.3  12.1  NODE_28832_length_1081_cov_5.266932     799   1081 
+    1.4e-28  101.7   4.9  NODE_556499_length_256_cov_24.329609     25    252 
+    1.6e-28  101.4   4.8  NODE_556708_length_237_cov_8.731250     232      2 
+      4e-28  100.1   6.4  NODE_556469_length_259_cov_10.241758    246     15 
+    8.3e-28   99.1  12.0  NODE_18132_length_1295_cov_12.020525    294      1 
+    1.7e-27   98.1   5.4  NODE_556728_length_236_cov_10.798742      6    233 
+    2.1e-27   97.8   3.5  NODE_556864_length_225_cov_13.155405    224      3 
+    2.8e-27   97.3   4.3  NODE_556410_length_266_cov_25.947090     36    263 
+    2.3e-26   94.3   3.8  NODE_556875_length_224_cov_12.435374    223      8 
+    3.6e-26   93.6   4.8  NODE_555855_length_332_cov_2.443137       1    332 
+    9.9e-26   92.2   5.7  NODE_555902_length_326_cov_3.779116       2    326 
+    1.7e-25   91.4   7.5  NODE_48235_length_892_cov_16.266258     630    885 
+    1.8e-25   91.4   2.9  NODE_556762_length_233_cov_4.185897       2    231 
+    3.3e-25   90.4   3.4  NODE_556468_length_259_cov_11.802198    258      5 
+    2.1e-24   87.8   8.7  NODE_556454_length_261_cov_35.967391    253      1 
+    2.8e-24   87.4   7.1  NODE_555845_length_333_cov_9.601562     329     10 
+    3.3e-24   87.2   6.6  NODE_555869_length_330_cov_1.786561       4    322 
+      2e-23   84.6   6.0  NODE_556727_length_236_cov_14.660377     10    234 
+    2.1e-23   84.5   9.9  NODE_187098_length_551_cov_2.795359     287    542 
+    5.2e-23   83.2   6.6  NODE_460271_length_394_cov_6.041009      17    274 
+    6.4e-23   82.9   8.6  NODE_556328_length_276_cov_13.437186    254      1 
+      2e-22   81.2   6.2  NODE_555959_length_320_cov_11.818930    320      2 
+    3.7e-22   80.4  11.9  NODE_384998_length_421_cov_4.706395     142    421 
+    5.1e-22   79.9   5.9  NODE_556018_length_315_cov_6.941176       1    314 
+    5.8e-22   79.7  10.7  NODE_197466_length_540_cov_2.660907     265      1 
+    5.8e-22   79.7   5.2  NODE_856_length_4535_cov_19.581875        3    257 
+    1.1e-21   78.8   4.5  NODE_555718_length_349_cov_10.955882      4    260 
+    1.7e-21   78.2   7.3  NODE_557164_length_206_cov_3.341085       8    206 
+    2.7e-21   77.5   6.7  NODE_556038_length_313_cov_3.093220     310      2 
+    2.8e-21   77.5   3.8  NODE_557054_length_212_cov_6.014815       1    206 
+    4.1e-21   76.9   5.5  NODE_557121_length_209_cov_1.492424     197      1 
+    4.1e-21   76.9   2.6  NODE_556974_length_218_cov_2.056738       1    214 
+    4.7e-21   76.7   5.3  NODE_556409_length_266_cov_74.306878     14    266 
+      7e-21   76.1  10.8  NODE_556229_length_287_cov_3.085714     253      1 
+    1.5e-20   75.1  14.1  NODE_556458_length_260_cov_42.049180      1    259 
+    1.8e-20   74.8   4.4  NODE_556813_length_229_cov_2.888158     228     33 
+    1.9e-20   74.7   4.4  NODE_16155_length_1354_cov_21.691464     34    288 
+    3.9e-20   73.7   2.3  NODE_557143_length_207_cov_4.061538       1    205 
+    1.2e-19   72.1   7.0  NODE_557337_length_198_cov_2.206612       8    197 
+    1.2e-19   72.0   2.6  NODE_557210_length_204_cov_1.362205       1    202 
+    1.6e-18   68.3   7.2  NODE_336982_length_443_cov_0.846995     419    218 
+    2.2e-18   67.9   7.8  NODE_557407_length_194_cov_20.564103    191      2 
+    2.4e-18   67.8   5.0  NODE_559015_length_125_cov_67.583333    117      5 
+    4.9e-18   66.7   8.5  NODE_35269_length_1001_cov_16.839827     17    328 
+    7.2e-18   66.1   1.2  NODE_557015_length_215_cov_2.275362     215     34 
+    8.1e-18   66.0   9.1  NODE_557262_length_202_cov_25.728000      9    201 
+    9.9e-18   65.7   6.1  NODE_556828_length_227_cov_17.273333      2    218 
+    1.7e-17   64.9   4.8  NODE_559512_length_112_cov_31.742857    107      6 
+    1.1e-16   62.2   3.5  NODE_557645_length_183_cov_3.207547      13    181 
+    1.7e-16   61.6   4.8  NODE_35498_length_999_cov_1.926247      251     53 
+    2.5e-16   61.1   9.2  NODE_556855_length_226_cov_1.926174       7    226 
+    2.8e-16   60.9   8.3  NODE_273893_length_478_cov_1.588529     297    470 
+    3.1e-16   60.8   4.9  NODE_557445_length_193_cov_1.801724      11    185 
+    4.3e-16   60.3   6.9  NODE_557835_length_172_cov_6.852632       6    169 
+    6.1e-16   59.8   4.4  NODE_556074_length_309_cov_27.900862      4    308 
+    6.6e-16   59.7   6.6  NODE_557673_length_181_cov_7.067308      10    181 
+    7.3e-16   59.5   4.8  NODE_557189_length_205_cov_2.609375     205      5 
+    9.6e-16   59.1   3.5  NODE_108383_length_669_cov_3.785473     521    665 
+    9.7e-16   59.1   6.5  NODE_557860_length_170_cov_11.483871      5    168 
+    1.1e-15   58.9   8.4  NODE_380248_length_423_cov_1.803468     221     48 
+    1.1e-15   58.9   6.8  NODE_557850_length_171_cov_38.361702      8    171 
+    1.5e-15   58.5   6.6  NODE_557891_length_168_cov_5.142857     164      1 
+    3.3e-15   57.3   3.8  NODE_559104_length_122_cov_24.733333    122      5 
+    3.7e-15   57.2   6.3  NODE_557837_length_172_cov_6.452632       2    169 
+      4e-15   57.0   5.5  NODE_556182_length_293_cov_11.375000    292      1 
+    4.2e-15   57.0   4.0  NODE_559192_length_120_cov_8.093023      99      1 
+      6e-15   56.5   4.4  NODE_559833_length_104_cov_13.518519     99      1 
+    7.2e-15   56.2   2.7  NODE_557522_length_188_cov_5.738739     184      6 
+    7.9e-15   56.1   3.8  NODE_557808_length_173_cov_7.968750     169      2 
+    1.7e-14   54.9   3.6  NODE_557458_length_192_cov_1.452174       6    189 
+    1.9e-14   54.8   4.2  NODE_557346_length_197_cov_14.050000    196      6 
+    2.9e-14   54.2   5.4  NODE_560002_length_102_cov_4.080000      97      1 
+    4.3e-14   53.7   5.0  NODE_556214_length_289_cov_6.839623       5    259 
+      5e-14   53.4   7.7  NODE_3185_length_2571_cov_16.783881    1849   1504 
+    5.4e-14   53.3   4.4  NODE_560397_length_96_cov_8.736842        2     96 
+    7.9e-14   52.8   5.0  NODE_557910_length_167_cov_3.244444       2    167 
+    2.8e-13   50.9   4.0  NODE_561254_length_86_cov_4.777778        2     86 
+      3e-13   50.8   3.8  NODE_557451_length_192_cov_10.947826    191     12 
+    3.3e-13   50.7   1.0  NODE_556398_length_268_cov_3.204188     262    133 
+    3.9e-13   50.5   6.5  NODE_556278_length_282_cov_1.341463     133    279 
+    4.2e-13   50.3   6.0  NODE_286478_length_470_cov_2.687023     153      4 
+    4.9e-13   50.1  10.8  NODE_555686_length_354_cov_3.642599     164      8 
+    6.2e-13   49.8   9.2  NODE_280058_length_474_cov_6.430730     176      4 
+    1.2e-12   48.9   9.9  NODE_555832_length_336_cov_6.849421     165      7 
+    1.2e-12   48.9  11.0  NODE_555710_length_351_cov_6.664234     190    346 
+    2.4e-12   47.8   8.7  NODE_555987_length_318_cov_8.294606     159    315 
+    2.5e-12   47.8  12.0  NODE_18132_length_1295_cov_12.020525    702    361 
+    2.7e-12   47.7   7.7  NODE_557452_length_192_cov_9.669565      11    170 
+    3.6e-12   47.3   9.5  NODE_202356_length_535_cov_37.456332    375    530 
+    3.7e-12   47.3   2.2  NODE_557474_length_191_cov_4.201754     187      4 
+      7e-12   46.3   3.8  NODE_557219_length_203_cov_3.801587     201      6 
+    8.6e-12   46.0   4.1  NODE_558255_length_154_cov_5.000000     153     11 
+    1.3e-11   45.4   3.6  NODE_558485_length_145_cov_15.176471      3    145 
+    1.3e-11   45.4   9.1  NODE_556071_length_310_cov_1.901288     162      2 
+      2e-11   44.8   5.1  NODE_557230_length_203_cov_1.769841       4    200 
+    2.1e-11   44.7   2.6  NODE_558677_length_137_cov_24.300000    137     38 
+    2.5e-11   44.5   3.7  NODE_559215_length_119_cov_93.642857     83      3 
+    2.9e-11   44.3   3.7  NODE_558487_length_145_cov_3.132353     143      1 
+    5.4e-11   43.4   2.4  NODE_558764_length_134_cov_5.403509     132      5 
+    7.7e-11   42.9   6.6  NODE_556754_length_234_cov_4.414013       2    229 
+    1.1e-10   42.3   7.3  NODE_558290_length_153_cov_3.184211       5    149 
+    1.3e-10   42.1  12.8  NODE_16490_length_1343_cov_16.184044    860    524 
+    1.8e-10   41.6  10.0  NODE_432922_length_403_cov_3.355828     250    399 
+    2.6e-10   41.1   9.2  NODE_557936_length_166_cov_4.629213       6    160 
+    2.7e-10   41.0   0.7  NODE_559000_length_126_cov_4.530612     121      1 
+    2.9e-10   40.9   7.9  NODE_558201_length_155_cov_3.807692       5    149 
+    3.8e-10   40.6  10.1  NODE_482000_length_388_cov_0.836013     255     23 
+    5.2e-10   40.1   7.6  NODE_558308_length_152_cov_9.973333       5    149 
+    5.2e-10   40.1   4.9  NODE_556429_length_264_cov_14.780749    263      2 
+    6.8e-10   39.7   1.8  NODE_558969_length_127_cov_17.800000      8    123 
+    8.9e-10   39.3   4.1  NODE_556296_length_280_cov_5.477833       7    153 
+    1.2e-09   38.9   7.9  NODE_3108_length_2596_cov_7.942834      607    925 
+    1.3e-09   38.8   1.6  NODE_558800_length_133_cov_5.696429       8    123 
+    1.4e-09   38.7   3.1  NODE_561162_length_87_cov_9.700000       87      1 
+    1.9e-09   38.2  11.2  NODE_557706_length_179_cov_3.049020      26    175 
+    2.7e-09   37.7   2.7  NODE_558174_length_155_cov_9.012821       8    123 
+    6.4e-09   36.5   7.3  NODE_49222_length_886_cov_1.417800      481    825 
+    8.4e-09   36.1   9.3  NODE_556226_length_287_cov_5.295238     148    287 
+    8.9e-09   36.0   2.4  NODE_558428_length_147_cov_4.142857       7    147 
+    1.4e-08   35.4   6.9  NODE_558137_length_156_cov_4.151899       7    152 
+    1.7e-08   35.1   1.6  NODE_559001_length_126_cov_4.122449     124      1 
+    2.4e-08   34.6   2.2  NODE_210700_length_527_cov_7.422222       3    109 
+    3.7e-08   34.0   1.7  NODE_558999_length_126_cov_8.836735     119     12 
+    4.5e-08   33.7   2.8  NODE_558444_length_146_cov_6.014493     141      1 
+    4.9e-08   33.6   5.4  NODE_324873_length_449_cov_0.930108     119      1 
+    6.8e-08   33.1   3.7  NODE_560679_length_93_cov_35.500000      23     92 
+    6.9e-08   33.1  14.3  NODE_88457_length_718_cov_9.736349      411    687 
+    9.6e-08   32.6   4.7  NODE_557589_length_185_cov_6.314815     183      2 
+    1.9e-07   31.6   2.7  NODE_558541_length_143_cov_2.696970       2    142 
+      2e-07   31.6  12.4  NODE_107065_length_672_cov_1.689076     311    642 
+      2e-07   31.5   4.0  NODE_557786_length_175_cov_4.265306       9    145 
+    2.1e-07   31.5   9.5  NODE_35573_length_998_cov_5.279045      786    993 
+    2.6e-07   31.2   5.0  NODE_557527_length_188_cov_3.045045       4    187 
+    2.8e-07   31.1   7.4  NODE_556282_length_281_cov_3.524510     147    277 
+    4.4e-07   30.4   1.4  NODE_559324_length_117_cov_5.750000     110      1 
+    4.7e-07   30.3   2.4  NODE_176665_length_563_cov_3.648148     562    490 
+      5e-07   30.2   9.6  NODE_556156_length_299_cov_4.378378     126      3 
+    6.2e-07   29.9   4.6  NODE_557551_length_187_cov_5.190909     186      2 
+    1.1e-06   29.1   8.1  NODE_8382_length_1752_cov_14.712239    1239    909 
+    1.4e-06   28.7   1.6  NODE_557144_length_207_cov_3.315385       2     83 
+    1.4e-06   28.7   7.2  NODE_69983_length_780_cov_3.260313      724    374 
+    3.3e-06   27.5   0.9  NODE_561446_length_84_cov_10.000000       6     77 
+    4.7e-06   27.0   1.1  NODE_560240_length_98_cov_3.619048        3     98 
+    5.1e-06   26.9  11.7  NODE_36672_length_986_cov_2.869087      585    908 
+    6.8e-06   26.5   0.9  NODE_557186_length_205_cov_7.132812     204    123 
+    6.9e-06   26.5   1.5  NODE_561936_length_78_cov_5.000000       77      5 
+    8.4e-06   26.2   7.4  NODE_347234_length_438_cov_0.927978     172      2 
+    8.8e-06   26.1   1.3  NODE_556863_length_225_cov_17.986486      2     83 
+    9.7e-06   26.0   1.5  NODE_559943_length_103_cov_18.961538      3    103 
+
+
+Annotation for each hit :
+>> NODE_1673_length_3345_cov_4.424113  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ! 1615.9  33.6         0         1      1733 [.       926      2655 ..       926      2656 ..      3345    0.97
+
+>> NODE_413467_length_410_cov_2.399399  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  326.8   8.9   1.5e-96       667      1071 ..         3       409 ..         1       410 []       410    0.96
+
+>> NODE_3693_length_2416_cov_4.865327  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  283.5  14.0   1.8e-83       850      1644 ..      1132      1903 ..      1112      1927 ..      2416    0.85
+
+>> NODE_8382_length_1752_cov_14.712239  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  274.1   9.8   1.3e-80       863      1629 ..       832        90 ..       852        69 ..      1752    0.83
+
+>> NODE_3108_length_2596_cov_7.942834  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  270.0  17.0   2.1e-79       835      1626 ..       985      1740 ..       967      1754 ..      2596    0.84
+
+>> NODE_35269_length_1001_cov_16.839827  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  259.7  26.1   2.8e-76       858      1468 ..       401       998 ..       380      1001 .]      1001    0.88
+
+>> NODE_62224_length_813_cov_7.716033  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  253.9  11.9   1.5e-74       911      1629 ..         7       693 ..         1       713 [.       813    0.83
+
+>> NODE_30052_length_1065_cov_9.051619  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  253.8  16.1   1.6e-74       855      1626 ..       282      1028 ..       263      1038 ..      1065    0.85
+
+>> NODE_3185_length_2571_cov_16.783881  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  250.7  13.7   1.4e-73       846      1626 ..      1434       670 ..      1452       648 ..      2571    0.81
+
+>> NODE_6403_length_1938_cov_9.062332  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  243.4  15.4   2.3e-71       848      1628 ..       889      1637 ..       869      1660 ..      1938    0.83
+
+>> NODE_94797_length_701_cov_11.048077  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  214.0   9.4   1.7e-62      1089      1626 ..        22       553 ..         4       573 ..       701    0.87
+
+>> NODE_90989_length_711_cov_11.678233  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  208.9  20.6   5.8e-61       867      1582 ..        11       700 ..         1       711 []       711    0.83
+
+>> NODE_18305_length_1291_cov_2.130972  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  207.8  20.2   1.3e-60       854      1534 ..       681         4 ..       701         1 ..      1291    0.78
+
+>> NODE_102100_length_683_cov_20.465347  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  204.3   9.8   1.5e-59      1089      1626 ..        10       535 ..         4       555 ..       683    0.87
+
+>> NODE_433100_length_403_cov_1.702454  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  199.5   1.2   4.1e-58      1443      1733 ..         1       293 [.         1       294 [.       403    0.92
+
+>> NODE_76612_length_755_cov_1.479351  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  196.0   3.2   4.6e-57       992      1624 ..         2       603 ..         1       623 [.       755    0.82
+
+>> NODE_17343_length_1316_cov_17.736885  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  183.0   8.2   3.9e-53      1093      1624 ..      1315       798 ..      1316       778 ..      1316    0.85
+
+>> NODE_283259_length_472_cov_19.792405  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  180.9  12.4   1.7e-52       863      1313 ..        29       470 ..         9       472 .]       472    0.85
+
+>> NODE_141874_length_609_cov_5.768797  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  173.7   7.0   2.5e-50       859      1316 ..       157       607 ..       136       609 .]       609    0.86
+
+>> NODE_16490_length_1343_cov_16.184044  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  172.8  11.3   4.7e-50       850      1315 ..       460         5 ..       480         1 ..      1343    0.87
+
+>> NODE_255860_length_490_cov_7.818402  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  168.6  10.5   8.8e-49      1089      1581 ..         6       484 ..         2       488 ..       490    0.84
+
+>> NODE_142584_length_608_cov_17.885122  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  161.0  15.5   1.7e-46       847      1315 ..       147       606 ..       129       608 .]       608    0.85
+
+>> NODE_195526_length_542_cov_2.081720  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  158.8   7.4     8e-46       877      1293 ..       408         3 ..       429         1 ..       542    0.84
+
+>> NODE_126360_length_634_cov_21.023339  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  156.6  11.6   3.7e-45       850      1302 ..       444         2 ..       464         1 ..       634    0.85
+
+>> NODE_442142_length_400_cov_1.386997  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  151.3   6.3   1.5e-43       952      1319 ..       368         2 ..       390         1 ..       400    0.80
+
+>> NODE_253016_length_492_cov_2.734940  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  150.3   6.3   2.8e-43      1123      1625 ..       492         5 ..       492         1 ..       492    0.82
+
+>> NODE_11774_length_1534_cov_2.389156  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  149.7  14.2   4.4e-43      1118      1626 ..         1       494 [.         1       515 [.      1534    0.85
+
+>> NODE_316776_length_453_cov_1.247340  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  141.6   8.6   1.2e-40      1155      1617 ..       452         1 ..       453         1 ..       453    0.84
+
+>> NODE_69215_length_783_cov_2.383853  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  135.3   6.6   9.9e-39      1164      1624 ..       783       326 ..       783       312 ..       783    0.85
+
+>> NODE_432918_length_403_cov_6.852761  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  129.9  10.4   4.2e-37       903      1309 ..         3       400 ..         1       403 []       403    0.82
+
+>> NODE_315196_length_454_cov_1.007958  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  128.7   4.7   9.8e-37      1158      1620 ..       454         1 ..       454         1 ..       454    0.84
+
+>> NODE_229907_length_510_cov_4.718245  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  128.4   8.2   1.2e-36      1247      1629 ..       506       141 ..       509       120 ..       510    0.87
+
+>> NODE_555825_length_337_cov_12.196154  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  126.3  10.2     5e-36       866      1202 ..       328         5 ..       337         2 ..       337    0.87
+
+>> NODE_30653_length_1057_cov_2.940816  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  124.7   3.8   1.6e-35      1247      1628 ..         4       366 ..         2       387 ..      1057    0.85
+
+>> NODE_69244_length_783_cov_1.720963  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  124.6  25.2   1.6e-35       852      1202 ..       363        26 ..       379        19 ..       783    0.85
+
+>> NODE_25613_length_1132_cov_14.159242  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  121.3   5.4   1.6e-34      1247      1628 ..         5       367 ..         2       388 ..      1132    0.84
+
+>> NODE_13264_length_1463_cov_3.969697  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  120.0   7.5   3.9e-34      1247      1626 ..         4       368 ..         2       389 ..      1463    0.87
+
+>> NODE_555581_length_367_cov_5.724138  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  119.2   9.8   7.1e-34      1089      1448 ..       357         1 ..       364         1 ..       367    0.83
+
+>> NODE_69983_length_780_cov_3.260313  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  118.6   9.5   1.1e-33       849      1169 ..       308         1 ..       330         1 ..       780    0.87
+
+>> NODE_185456_length_553_cov_1.430672  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  118.4   6.2   1.2e-33      1247      1626 ..       553       189 ..       553       169 ..       553    0.88
+
+>> NODE_435775_length_402_cov_21.172308  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  118.1   7.1   1.5e-33      1246      1626 ..         3       368 ..         1       380 [.       402    0.88
+
+>> NODE_551359_length_369_cov_12.804795  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  114.7   6.7   1.5e-32      1247      1625 ..       366         4 ..       368         1 ..       369    0.87
+
+>> NODE_102104_length_683_cov_2.912541  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  111.6   2.6   1.4e-31      1396      1652 ..       680       433 ..       683       410 ..       683    0.87
+
+>> NODE_555579_length_367_cov_32.975862  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  111.4   7.2   1.6e-31      1089      1393 ..        38       333 ..        18       353 ..       367    0.81
+
+>> NODE_555625_length_362_cov_19.235088  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  109.6   8.4   5.4e-31      1247      1620 ..         6       362 .]         2       362 .]       362    0.89
+
+>> NODE_432962_length_403_cov_2.220859  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  109.2   5.3   7.4e-31      1246      1628 ..         2       366 ..         1       389 [.       403    0.86
+
+>> NODE_555721_length_348_cov_5.531365  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  107.8   2.8   1.9e-30      1397      1636 ..         5       235 ..         1       274 [.       348    0.88
+
+>> NODE_64016_length_805_cov_2.559066  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  106.2   1.8   5.8e-30      1246      1624 ..       762       399 ..       782       379 ..       805    0.87
+
+>> NODE_555812_length_338_cov_11.570881  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  104.0   8.2   2.8e-29      1089      1419 ..         8       329 ..         3       337 ..       338    0.78
+
+>> NODE_28832_length_1081_cov_5.266932  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  103.3  12.1   4.5e-29       866      1161 ..       799      1081 .]       778      1081 .]      1081    0.81
+
+>> NODE_556499_length_256_cov_24.329609  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  101.7   4.9   1.4e-28      1089      1313 ..        25       252 ..         7       256 .]       256    0.86
+
+>> NODE_556708_length_237_cov_8.731250  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  101.4   4.8   1.6e-28      1089      1314 ..       232         2 ..       236         1 ..       237    0.86
+
+>> NODE_556469_length_259_cov_10.241758  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  100.1   6.4     4e-28      1089      1319 ..       246        15 ..       256         4 ..       259    0.85
+
+>> NODE_18132_length_1295_cov_12.020525  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   99.1  12.0   8.3e-28       852      1157 ..       294         1 ..       314         1 ..      1295    0.84
+
+>> NODE_556728_length_236_cov_10.798742  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   98.1   5.4   1.7e-27      1089      1313 ..         6       233 ..         2       236 .]       236    0.89
+
+>> NODE_556864_length_225_cov_13.155405  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   97.8   3.5   2.1e-27      1093      1311 ..       224         3 ..       225         1 ..       225    0.89
+
+>> NODE_556410_length_266_cov_25.947090  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   97.3   4.3   2.8e-27      1089      1313 ..        36       263 ..        16       266 .]       266    0.90
+
+>> NODE_556875_length_224_cov_12.435374  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   94.3   3.8   2.3e-26       976      1204 ..       223         8 ..       224         2 ..       224    0.81
+
+>> NODE_555855_length_332_cov_2.443137  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   93.6   4.8   3.6e-26      1113      1452 ..         1       332 []         1       332 []       332    0.80
+
+>> NODE_555902_length_326_cov_3.779116  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   92.2   5.7   9.9e-26      1279      1620 ..         2       326 .]         1       326 []       326    0.87
+
+>> NODE_48235_length_892_cov_16.266258  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   91.4   7.5   1.7e-25       867      1138 ..       630       885 ..       609       892 .]       892    0.82
+
+>> NODE_556762_length_233_cov_4.185897  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   91.4   2.9   1.8e-25      1093      1315 ..         2       231 ..         1       233 []       233    0.85
+
+>> NODE_556468_length_259_cov_11.802198  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   90.4   3.4   3.3e-25      1365      1625 ..       258         5 ..       259         1 ..       259    0.94
+
+>> NODE_556454_length_261_cov_35.967391  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   87.8   8.7   2.1e-24       867      1130 ..       253         1 ..       259         1 ..       261    0.84
+
+>> NODE_555845_length_333_cov_9.601562  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   87.4   7.1   2.8e-24      1247      1582 ..       329        10 ..       332         2 ..       333    0.88
+
+>> NODE_555869_length_330_cov_1.786561  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   87.2   6.6   3.3e-24      1247      1581 ..         4       322 ..         2       328 ..       330    0.87
+
+>> NODE_556727_length_236_cov_14.660377  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   84.6   6.0     2e-23      1089      1312 ..        10       234 ..         4       236 .]       236    0.85
+
+>> NODE_187098_length_551_cov_2.795359  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   84.5   9.9   2.1e-23       867      1137 ..       287       542 ..       267       550 ..       551    0.81
+
+>> NODE_460271_length_394_cov_6.041009  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   83.2   6.6   5.2e-23      1363      1626 ..        17       274 ..         4       294 ..       394    0.92
+
+>> NODE_556328_length_276_cov_13.437186  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   82.9   8.6   6.4e-23       864      1129 ..       254         1 ..       274         1 ..       276    0.85
+
+>> NODE_555959_length_320_cov_11.818930  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   81.2   6.2     2e-22      1113      1441 ..       320         2 ..       320         1 ..       320    0.82
+
+>> NODE_384998_length_421_cov_4.706395  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   80.4  11.9   3.7e-22       841      1130 ..       142       421 .]       122       421 .]       421    0.80
+
+>> NODE_556018_length_315_cov_6.941176  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   79.9   5.9   5.1e-22      1119      1441 ..         1       314 [.         1       315 []       315    0.80
+
+>> NODE_197466_length_540_cov_2.660907  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   79.7  10.7   5.8e-22       852      1128 ..       265         1 ..       285         1 ..       540    0.82
+
+>> NODE_856_length_4535_cov_19.581875  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   79.7   5.2   5.8e-22      1364      1624 ..         3       257 ..         1       277 [.      4535    0.93
+
+>> NODE_555718_length_349_cov_10.955882  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   78.8   4.5   1.1e-21      1364      1626 ..         4       260 ..         1       280 [.       349    0.92
+
+>> NODE_557164_length_206_cov_3.341085  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   78.2   7.3   1.7e-21       949      1161 ..         8       206 .]         3       206 .]       206    0.85
+
+>> NODE_556038_length_313_cov_3.093220  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   77.5   6.7   2.7e-21      1247      1571 ..       310         2 ..       312         1 ..       313    0.87
+
+>> NODE_557054_length_212_cov_6.014815  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   77.5   3.8   2.8e-21      1113      1315 ..         1       206 [.         1       211 [.       212    0.87
+
+>> NODE_557121_length_209_cov_1.492424  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   76.9   5.5   4.1e-21       948      1159 ..       197         1 ..       205         1 ..       209    0.83
+
+>> NODE_556974_length_218_cov_2.056738  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   76.9   2.6   4.1e-21      1111      1316 ..         1       214 [.         1       218 []       218    0.83
+
+>> NODE_556409_length_266_cov_74.306878  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   76.7   5.3   4.7e-21      1364      1622 ..        14       266 .]         2       266 .]       266    0.93
+
+>> NODE_556229_length_287_cov_3.085714  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   76.1  10.8     7e-21       867      1130 ..       253         1 ..       274         1 ..       287    0.85
+
+>> NODE_556458_length_260_cov_42.049180  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   75.1  14.1   1.5e-20       886      1156 ..         1       259 [.         1       260 []       260    0.86
+
+>> NODE_556813_length_229_cov_2.888158  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   74.8   4.4   1.8e-20      1426      1626 ..       228        33 ..       229        21 ..       229    0.95
+
+>> NODE_16155_length_1354_cov_21.691464  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   74.7   4.4   1.9e-20      1364      1624 ..        34       288 ..        12       308 ..      1354    0.89
+
+>> NODE_557143_length_207_cov_4.061538  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   73.7   2.3   3.9e-20      1113      1311 ..         1       205 [.         1       207 []       207    0.82
+
+>> NODE_557337_length_198_cov_2.206612  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   72.1   7.0   1.2e-19       955      1157 ..         8       197 ..         1       198 []       198    0.80
+
+>> NODE_557210_length_204_cov_1.362205  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   72.0   2.6   1.2e-19      1113      1311 ..         1       202 [.         1       204 []       204    0.89
+
+>> NODE_336982_length_443_cov_0.846995  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   68.3   7.2   1.6e-18      1417      1624 ..       419       218 ..       431       197 ..       443    0.93
+
+>> NODE_557407_length_194_cov_20.564103  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   67.9   7.8   2.2e-18       955      1157 ..       191         2 ..       193         1 ..       194    0.81
+
+>> NODE_559015_length_125_cov_67.583333  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   67.8   5.0   2.4e-18      1089      1202 ..       117         5 ..       122         2 ..       125    0.95
+
+>> NODE_35269_length_1001_cov_16.839827  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   66.7   8.5   4.9e-18       289       621 ..        17       328 ..         7       354 ..      1001    0.75
+
+>> NODE_557015_length_215_cov_2.275362  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   66.1   1.2   7.2e-18      1443      1629 ..       215        34 ..       215        14 ..       215    0.93
+
+>> NODE_557262_length_202_cov_25.728000  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   66.0   9.1   8.1e-18       948      1152 ..         9       201 ..         3       202 .]       202    0.78
+
+>> NODE_556828_length_227_cov_17.273333  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   65.7   6.1   9.9e-18       904      1136 ..         2       218 ..         1       227 []       227    0.79
+
+>> NODE_559512_length_112_cov_31.742857  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   64.9   4.8   1.7e-17      1089      1191 ..       107         6 ..       111         1 ..       112    0.94
+
+>> NODE_557645_length_183_cov_3.207547  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   62.2   3.5   1.1e-16       948      1130 ..        13       181 ..         5       183 .]       183    0.82
+
+>> NODE_35498_length_999_cov_1.926247  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   61.6   4.8   1.7e-16       835      1036 ..       251        53 ..       267        10 ..       999    0.84
+
+>> NODE_556855_length_226_cov_1.926174  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   61.1   9.2   2.5e-16       900      1130 ..         7       226 .]         1       226 []       226    0.78
+
+>> NODE_273893_length_478_cov_1.588529  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   60.9   8.3   2.8e-16       857      1030 ..       297       470 ..       271       477 ..       478    0.91
+
+>> NODE_557445_length_193_cov_1.801724  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   60.8   4.9   3.1e-16       949      1138 ..        11       185 ..         4       193 .]       193    0.79
+
+>> NODE_557835_length_172_cov_6.852632  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   60.3   6.9   4.3e-16       955      1130 ..         6       169 ..         1       172 []       172    0.79
+
+>> NODE_556074_length_309_cov_27.900862  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   59.8   4.4   6.1e-16      1259      1579 ..         4       308 ..         1       309 []       309    0.84
+
+>> NODE_557673_length_181_cov_7.067308  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   59.7   6.6   6.6e-16       948      1130 ..        10       181 .]         4       181 .]       181    0.78
+
+>> NODE_557189_length_205_cov_2.609375  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   59.5   4.8   7.3e-16      1119      1317 ..       205         5 ..       205         1 ..       205    0.82
+
+>> NODE_108383_length_669_cov_3.785473  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   59.1   3.5   9.6e-16       877      1021 ..       521       665 ..       501       669 .]       669    0.92
+
+>> NODE_557860_length_170_cov_11.483871  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   59.1   6.5   9.7e-16       955      1130 ..         5       168 ..         2       170 .]       170    0.78
+
+>> NODE_380248_length_423_cov_1.803468  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   58.9   8.4   1.1e-15       853      1026 ..       221        48 ..       244        27 ..       423    0.90
+
+>> NODE_557850_length_171_cov_38.361702  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   58.9   6.8   1.1e-15       955      1130 ..         8       171 .]         1       171 []       171    0.79
+
+>> NODE_557891_length_168_cov_5.142857  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   58.5   6.6   1.5e-15       955      1130 ..       164         1 ..       167         1 ..       168    0.77
+
+>> NODE_559104_length_122_cov_24.733333  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   57.3   3.8   3.3e-15      1095      1213 ..       122         5 ..       122         2 ..       122    0.95
+
+>> NODE_557837_length_172_cov_6.452632  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   57.2   6.3   3.7e-15       952      1130 ..         2       169 ..         1       172 []       172    0.82
+
+>> NODE_556182_length_293_cov_11.375000  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   57.0   5.5     4e-15      1258      1565 ..       292         1 ..       293         1 ..       293    0.84
+
+>> NODE_559192_length_120_cov_8.093023  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   57.0   4.0   4.2e-15      1089      1188 ..        99         1 ..       113         1 ..       120    0.95
+
+>> NODE_559833_length_104_cov_13.518519  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   56.5   4.4     6e-15      1089      1188 ..        99         1 ..       103         1 ..       104    0.95
+
+>> NODE_557522_length_188_cov_5.738739  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   56.2   2.7   7.2e-15      1139      1313 ..       184         6 ..       187         1 ..       188    0.86
+
+>> NODE_557808_length_173_cov_7.968750  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   56.1   3.8   7.9e-15      1135      1297 ..       169         2 ..       172         1 ..       173    0.88
+
+>> NODE_557458_length_192_cov_1.452174  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   54.9   3.6   1.7e-14      1135      1313 ..         6       189 ..         2       192 .]       192    0.87
+
+>> NODE_557346_length_197_cov_14.050000  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   54.8   4.2   1.9e-14      1126      1315 ..       196         6 ..       197         2 ..       197    0.83
+
+>> NODE_560002_length_102_cov_4.080000  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   54.2   5.4   2.9e-14      1089      1186 ..        97         1 ..       101         1 ..       102    0.94
+
+>> NODE_556214_length_289_cov_6.839623  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   53.7   5.0   4.3e-14      1135      1393 ..         5       259 ..         2       282 ..       289    0.72
+
+>> NODE_3185_length_2571_cov_16.783881  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   53.4   7.7     5e-14       288       612 ..      1849      1504 ..      1871      1481 ..      2571    0.73
+
+>> NODE_560397_length_96_cov_8.736842  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   53.3   4.4   5.4e-14      1093      1188 ..         2        96 .]         1        96 []        96    0.97
+
+>> NODE_557910_length_167_cov_3.244444  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   52.8   5.0   7.9e-14       952      1128 ..         2       167 .]         1       167 []       167    0.79
+
+>> NODE_561254_length_86_cov_4.777778  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   50.9   4.0   2.8e-13      1093      1178 ..         2        86 .]         1        86 []        86    0.96
+
+>> NODE_557451_length_192_cov_10.947826  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   50.8   3.8     3e-13      1142      1317 ..       191        12 ..       192         3 ..       192    0.87
+
+>> NODE_556398_length_268_cov_3.204188  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   50.7   1.0   3.3e-13      1499      1629 ..       262       133 ..       268       112 ..       268    0.88
+
+>> NODE_556278_length_282_cov_1.341463  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   50.5   6.5   3.9e-13       866      1012 ..       133       279 ..       111       282 .]       282    0.93
+
+>> NODE_286478_length_470_cov_2.687023  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   50.3   6.0   4.2e-13       863      1012 ..       153         4 ..       173         1 ..       470    0.92
+
+>> NODE_555686_length_354_cov_3.642599  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   50.1  10.8   4.9e-13       866      1022 ..       164         8 ..       185         1 ..       354    0.92
+
+>> NODE_280058_length_474_cov_6.430730  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.8   9.2   6.2e-13       848      1020 ..       176         4 ..       197         1 ..       474    0.88
+
+>> NODE_555832_length_336_cov_6.849421  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   48.9   9.9   1.2e-12       865      1023 ..       165         7 ..       186         1 ..       336    0.92
+
+>> NODE_555710_length_351_cov_6.664234  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   48.9  11.0   1.2e-12       865      1021 ..       190       346 ..       170       351 .]       351    0.93
+
+>> NODE_555987_length_318_cov_8.294606  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   47.8   8.7   2.4e-12       865      1021 ..       159       315 ..       137       318 .]       318    0.92
+
+>> NODE_18132_length_1295_cov_12.020525  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   47.8  12.0   2.5e-12       282       621 ..       702       361 ..       793       338 ..      1295    0.65
+
+>> NODE_557452_length_192_cov_9.669565  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   47.7   7.7   2.7e-12       867      1026 ..        11       170 ..         1       189 [.       192    0.91
+
+>> NODE_202356_length_535_cov_37.456332  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   47.3   9.5   3.6e-12       866      1021 ..       375       530 ..       354       535 .]       535    0.93
+
+>> NODE_557474_length_191_cov_4.201754  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   47.3   2.2   3.7e-12      1135      1313 ..       187         4 ..       190         1 ..       191    0.77
+
+>> NODE_557219_length_203_cov_3.801587  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   46.3   3.8     7e-12      1247      1455 ..       201         6 ..       203         1 ..       203    0.81
+
+>> NODE_558255_length_154_cov_5.000000  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   46.0   4.1   8.6e-12       976      1130 ..       153        11 ..       154         1 ..       154    0.74
+
+>> NODE_558485_length_145_cov_15.176471  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   45.4   3.6   1.3e-11       976      1130 ..         3       145 .]         1       145 []       145    0.76
+
+>> NODE_556071_length_310_cov_1.901288  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   45.4   9.1   1.3e-11       849      1008 ..       162         2 ..       184         1 ..       310    0.92
+
+>> NODE_557230_length_203_cov_1.769841  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   44.8   5.1     2e-11      1247      1454 ..         4       200 ..         2       203 .]       203    0.84
+
+>> NODE_558677_length_137_cov_24.300000  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   44.7   2.6   2.1e-11      1113      1213 ..       137        38 ..       137        17 ..       137    0.94
+
+>> NODE_559215_length_119_cov_93.642857  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   44.5   3.7   2.5e-11      1089      1170 ..        83         3 ..       103         1 ..       119    0.93
+
+>> NODE_558487_length_145_cov_3.132353  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   44.3   3.7   2.9e-11       976      1130 ..       143         1 ..       145         1 ..       145    0.73
+
+>> NODE_558764_length_134_cov_5.403509  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   43.4   2.4   5.4e-11      1498      1624 ..       132         5 ..       134         1 ..       134    0.92
+
+>> NODE_556754_length_234_cov_4.414013  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   42.9   6.6   7.7e-11      1258      1501 ..         2       229 ..         1       234 []       234    0.81
+
+>> NODE_558290_length_153_cov_3.184211  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   42.3   7.3   1.1e-10       868      1012 ..         5       149 ..         2       152 ..       153    0.95
+
+>> NODE_16490_length_1343_cov_16.184044  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   42.1  12.8   1.3e-10       288       622 ..       860       524 ..       881       503 ..      1343    0.73
+
+>> NODE_432922_length_403_cov_3.355828  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   41.6  10.0   1.8e-10       863      1012 ..       250       399 ..       229       403 .]       403    0.90
+
+>> NODE_557936_length_166_cov_4.629213  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   41.1   9.2   2.6e-10       867      1021 ..         6       160 ..         2       166 .]       166    0.93
+
+>> NODE_559000_length_126_cov_4.530612  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   41.0   0.7   2.7e-10      1498      1619 ..       121         1 ..       126         1 ..       126    0.92
+
+>> NODE_558201_length_155_cov_3.807692  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   40.9   7.9   2.9e-10       868      1012 ..         5       149 ..         2       155 .]       155    0.94
+
+>> NODE_482000_length_388_cov_0.836013  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   40.6  10.1   3.8e-10       877      1130 ..       255        23 ..       275         3 ..       388    0.79
+
+>> NODE_558308_length_152_cov_9.973333  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   40.1   7.6   5.2e-10       868      1012 ..         5       149 ..         2       151 ..       152    0.95
+
+>> NODE_556429_length_264_cov_14.780749  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   40.1   4.9   5.2e-10      1175      1444 ..       263         2 ..       264         1 ..       264    0.78
+
+>> NODE_558969_length_127_cov_17.800000  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   39.7   1.8   6.8e-10      1511      1625 ..         8       123 ..         1       127 []       127    0.92
+
+>> NODE_556296_length_280_cov_5.477833  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   39.3   4.1   8.9e-10      1481      1626 ..         7       153 ..         2       173 ..       280    0.91
+
+>> NODE_3108_length_2596_cov_7.942834  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   38.9   7.9   1.2e-09       288       609 ..       607       925 ..       586       946 ..      2596    0.72
+
+>> NODE_558800_length_133_cov_5.696429  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   38.8   1.6   1.3e-09      1511      1625 ..         8       123 ..         1       130 [.       133    0.91
+
+>> NODE_561162_length_87_cov_9.700000  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   38.7   3.1   1.4e-09      1101      1188 ..        87         1 ..        87         1 ..        87    0.96
+
+>> NODE_557706_length_179_cov_3.049020  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   38.2  11.2   1.9e-09       863      1012 ..        26       175 ..         6       179 .]       179    0.90
+
+>> NODE_558174_length_155_cov_9.012821  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   37.7   2.7   2.7e-09      1512      1626 ..         8       123 ..         1       139 [.       155    0.91
+
+>> NODE_49222_length_886_cov_1.417800  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   36.5   7.3   6.4e-09       289       614 ..       481       825 ..       459       847 ..       886    0.65
+
+>> NODE_556226_length_287_cov_5.295238  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   36.1   9.3   8.4e-09       867      1006 ..       148       287 .]       126       287 .]       287    0.92
+
+>> NODE_558428_length_147_cov_4.142857  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   36.0   2.4   8.9e-09      1481      1620 ..         7       147 .]         2       147 .]       147    0.92
+
+>> NODE_558137_length_156_cov_4.151899  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   35.4   6.9   1.4e-08       867      1012 ..         7       152 ..         2       156 .]       156    0.94
+
+>> NODE_559001_length_126_cov_4.122449  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   35.1   1.6   1.7e-08      1498      1620 ..       124         1 ..       126         1 ..       126    0.92
+
+>> NODE_210700_length_527_cov_7.422222  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   34.6   2.2   2.4e-08      1521      1626 ..         3       109 ..         1       129 [.       527    0.93
+
+>> NODE_558999_length_126_cov_8.836735  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   34.0   1.7   3.7e-08      1520      1626 ..       119        12 ..       125         5 ..       126    0.93
+
+>> NODE_558444_length_146_cov_6.014493  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   33.7   2.8   4.5e-08      1481      1620 ..       141         1 ..       146         1 ..       146    0.93
+
+>> NODE_324873_length_449_cov_0.930108  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   33.6   5.4   4.9e-08       877       995 ..       119         1 ..       139         1 ..       449    0.95
+
+>> NODE_560679_length_93_cov_35.500000  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   33.1   3.7   6.8e-08      1089      1159 ..        23        92 ..         3        93 .]        93    0.88
+
+>> NODE_88457_length_718_cov_9.736349  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   33.1  14.3   6.9e-08       289       563 ..       411       687 ..       404       689 ..       718    0.65
+
+>> NODE_557589_length_185_cov_6.314815  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   32.6   4.7   9.6e-08      1247      1440 ..       183         2 ..       185         1 ..       185    0.78
+
+>> NODE_558541_length_143_cov_2.696970  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   31.6   2.7   1.9e-07      1426      1571 ..         2       142 ..         1       143 []       143    0.94
+
+>> NODE_107065_length_672_cov_1.689076  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   31.6  12.4     2e-07       286       620 ..       311       642 ..       291       663 ..       672    0.70
+
+>> NODE_557786_length_175_cov_4.265306  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   31.5   4.0     2e-07      1247      1394 ..         9       145 ..         5       168 ..       175    0.81
+
+>> NODE_35573_length_998_cov_5.279045  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   31.5   9.5   2.1e-07       225       427 ..       786       993 ..       764       997 ..       998    0.74
+
+>> NODE_557527_length_188_cov_3.045045  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   31.2   5.0   2.6e-07      1247      1441 ..         4       187 ..         2       188 .]       188    0.83
+
+>> NODE_556282_length_281_cov_3.524510  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   31.1   7.4   2.8e-07       867       997 ..       147       277 ..       126       281 .]       281    0.93
+
+>> NODE_559324_length_117_cov_5.750000  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   30.4   1.4   4.4e-07      1512      1620 ..       110         1 ..       117         1 ..       117    0.92
+
+>> NODE_176665_length_563_cov_3.648148  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   30.3   2.4   4.7e-07      1554      1626 ..       562       490 ..       563       469 ..       563    0.92
+
+>> NODE_556156_length_299_cov_4.378378  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   30.2   9.6     5e-07       867       990 ..       126         3 ..       146         1 ..       299    0.92
+
+>> NODE_557551_length_187_cov_5.190909  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   29.9   4.6   6.2e-07      1246      1441 ..       186         2 ..       187         1 ..       187    0.80
+
+>> NODE_8382_length_1752_cov_14.712239  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   29.1   8.1   1.1e-06       289       622 ..      1239       909 ..      1261       883 ..      1752    0.75
+
+>> NODE_557144_length_207_cov_3.315385  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   28.7   1.6   1.4e-06      1546      1626 ..         2        83 ..         1       105 [.       207    0.91
+
+>> NODE_69983_length_780_cov_3.260313  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   28.7   7.2   1.4e-06       291       619 ..       724       374 ..       745       352 ..       780    0.67
+
+>> NODE_561446_length_84_cov_10.000000  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   27.5   0.9   3.3e-06      1134      1204 ..         6        77 ..         1        83 [.        84    0.91
+
+>> NODE_560240_length_98_cov_3.619048  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   27.0   1.1   4.7e-06      1526      1620 ..         3        98 .]         1        98 []        98    0.92
+
+>> NODE_36672_length_986_cov_2.869087  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   26.9  11.7   5.1e-06       292       618 ..       585       908 ..       564       933 ..       986    0.70
+
+>> NODE_557186_length_205_cov_7.132812  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   26.5   0.9   6.8e-06      1546      1626 ..       204       123 ..       205       103 ..       205    0.92
+
+>> NODE_561936_length_78_cov_5.000000  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   26.5   1.5   6.9e-06      1554      1625 ..        77         5 ..        78         1 ..        78    0.93
+
+>> NODE_347234_length_438_cov_0.927978  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   26.2   7.4   8.4e-06       243       409 ..       172         2 ..       197         1 ..       438    0.74
+
+>> NODE_556863_length_225_cov_17.986486  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   26.1   1.3   8.8e-06      1546      1626 ..         2        83 ..         1       103 [.       225    0.91
+
+>> NODE_559943_length_103_cov_18.961538  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   26.0   1.5   9.7e-06      1521      1620 ..         3       103 .]         1       103 []       103    0.94
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1734 nodes)
+Target sequences:                     561960  (654312586 residues searched)
+Residues passing SSV filter:         1172783  (0.00179); expected (0.02)
+Residues passing bias filter:        1172783  (0.00179); expected (0.02)
+Residues passing Vit filter:          510382  (0.00078); expected (0.003)
+Residues passing Fwd filter:          125305  (0.000192); expected (3e-05)
+Total number of hits:                    198  (8.04e-05)
+# CPU time: 119.39u 0.46s 00:01:59.85 Elapsed: 00:00:08.01
+# Mc/sec: 141612.53
+//
+[ok]
